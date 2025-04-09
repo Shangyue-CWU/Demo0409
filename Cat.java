@@ -13,9 +13,9 @@ public class MoneyTest {
 
     @Before
     public void setUp() {
-        f12CHF = new Money(12, "CHF");
-        f14CHF = new Money(14, "CHF");
-        fNegativeCHF = new Money(-5, "CHF");
+        f12CHF = new Money(12, "CAT");
+        f14CHF = new Money(14, "CAT");
+        fNegativeCHF = new Money(-5, "CAT");
     }
 
     @Test
